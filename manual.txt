@@ -1,0 +1,17 @@
+hello,
+
+this is the manual for using my argos.py code.
+
+the first command will be building the docker image.
+$ docker build -t <image_name> .
+notice the space after the name, it is crucial for the command syntax
+
+the second command is running the code.
+$ python argos.py
+
+thats it, now you can view the results:
+data_db -database with all the needed data, divided to two tables - data and tags which have primary key TITLE.
+Links_time - text file. time from "clicking" the link until new page loaded
+Search_query_time - text file. time for executing the search query. from typing correct url and pressing ENTER.
+
+####the code is written with notes
